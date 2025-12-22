@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* White scrollbar */
+.white-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.white-scrollbar::-webkit-scrollbar-track {
+  background: white;
+}
+
+.white-scrollbar::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 9999px;
+}
+
+/* Firefox */
+.white-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: white white;
+}
